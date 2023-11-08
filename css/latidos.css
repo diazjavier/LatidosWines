@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: eyesome;
+    src: url('../public/fonts/Eyesome\ Script.otf');
+}
+
+@font-face {
+    font-family: cormorantib;
+    src: url('../public/fonts/CormorantGaramond-BoldItalic.ttf');
+}
+
+.icon1 {
+    width: 60px;
+    height: 50px;
+}
+
+.background {
+    /* background: #fff8ed; */
+    background: #694736;
+    opacity: 85%;
+    color: #fff8ed;
+}
+
+.backgroundLight {
+    background: #fff8ed;
+    color: #7c4214;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.backgoundImageHome {
+    background-image: url('../public/images/Home.png');
+    background-color: #fff8ed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    /* min-width: 100vh; */
+    min-height: 100vh;
+}
+
+@media(max-width: 1000px) {
+    .backgoundImageHome {
+        background-image: url('../public/images/HomeVertical.png');
+    }
+
+    .backgroundGeneral {
+        background-repeat: no-repeat;
+        /* min-width: 150vh; */
+        min-height: 150vh;
+        /* background-position: cover; */
+
+    }
+}
+
+.backgoundImageAbout {
+    background-image: url('../public/images/About1.png');
+    background-color: #fff8ed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    /* min-width: 100vh; */
+    min-height: 100vh;
+
+}
+
+.backgoundImageDiego {
+    background-image: url('../public/images/DiegoLaneveVertical.png');
+    /* background-color: #fff8ed; */
+    /* background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;
+    max-width: 300px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-size: contain; */
+    /* min-width: 100vh; */
+    /* min-height: 100vh; */
+
+}
+
+.backgoundImageLisa {
+    background-image: url('../public/images/CorazonVertical2.png');
+    background-color: #fff8ed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    /* min-width: 100vh; */
+    min-height: 100vh;
+}
+
+.imagenBlock {
+    margin-top: 20%;
+    margin-bottom: 10%;
+    height: 432px;
+    width: 345px;
+    border-radius: 5%;
+    /* opacity: 90%; */
+}
+
+@media screen and (max-width: 768px) {
+    .imagenBlock {
+        src: url('../public/images/diego3.png');
+        margin-top: 30%;
+        /* margin-left: 25%; */
+        height: 395px;
+        width: 315px;
+        /* border-radius: 5%;
+        opacity: 90%; */
+    }
+
+    .footerCenter {
+        text-align: center;
+    }
+}
+
+
+
+.eyesome {
+    font-family: eyesome;
+}
+
+.cormorantib{
+    font-family: cormorantib;
+}
+
+.titulo {
+    font-size: 50px;
+    /* font-weight: bold; */
+    /* padding: 40px; */
+}
+
+.parrafo {
+    font-size: 20px;
+}
+
+.rowBlock {
+    height: 750px;
+}
+
+.rowBlock2 {
+    height: 400px;
+}
+
+.imgBlock2 {
+    max-width: 100%;
+    height: auto;
+}
+
+.navbarFont {
+    font-size: 25px;
+    /* font-weight: bold; */
+
+}
+
+a:hover {
+    color: #000000;
+}
+
+.scroll-container {
+    background-color: #fff8ed;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    /* scrollbar-color: transparent transparent; thumb and track color */
+    /* scrollbar-width: 0px; */
+
+}
+
+.botellas {
+    margin-top: 10px;
+    margin-left: 60px;
+    height: 350px;
+    width: 120px;
+}

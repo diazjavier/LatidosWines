@@ -1,0 +1,56 @@
+.cardServicios {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    /* background-clip: border-box; */
+    /* border: 1px solid rgba(0,0,0,.125); */
+    border-radius: .25rem;
+    margin: 10px;
+}
+
+.cardServicios-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    /* border-bottom: 1px solid rgba(0,0,0,.125); */
+    text-align: center;
+    height: 50px;
+}
+
+.cardServicios-header a{
+  color: #000;
+  text-decoration: none;
+}
+
+.cardServicios-body{
+  padding: .75rem 1.25rem;;
+  margin-bottom: 3px;
+  background-color: rgba(0,0,0,.01);
+  /* border-bottom: 1px solid rgba(0,0,0,.125); */
+  text-align: left;
+  height: 4rem;
+}
+
+.cardServicios-body::before { /* Añadimos contenido antes de cada elemento de la lista */
+content: "\2022"; /* Insertamos el marcador*/
+padding-right: 8px; /* Establecemos el espacio entre las viñetas y el list item */
+color: green; /* Coloreamos la viñeta */
+}
+
+@media (max-width: 768px){
+  .cardServicios-body{
+    padding: .75rem;
+    font-size: 12px;
+  }
+  .variable{
+    font-size: 14px;
+  }
+  .pageTitle h1{
+    font-size: 22px;
+  }
+}
